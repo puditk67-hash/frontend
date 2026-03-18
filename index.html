@@ -260,6 +260,15 @@ async function loadOrders() {
 }
 // โหลดหน้าแรก
 showPage("dashboard");
+if (window.location.pathname === "/Customers") {
+  window.location.href = "/customers";
+}
+if (window.location.pathname === "/Products") {
+  window.location.href = "/products";
+}
+if (window.location.pathname === "/Orders") {
+  window.location.href = "/orders";
+}
 </script>
 
 </body>
